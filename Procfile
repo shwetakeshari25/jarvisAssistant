@@ -1,0 +1,1 @@
+web: gunicorn --chdir jarvis_project jarvis_project.wsgi:application
